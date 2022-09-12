@@ -4,7 +4,8 @@
 
 Where: Zoom
 When:  12/09/2022
-Who:   ESGF CWT
+Who:   ESGF CWT:
+- 
 
 ## Actions
 
@@ -95,6 +96,8 @@ Who:   ESGF CWT
 # Notes
 
 1. Welcome and introductions
+   - team introduced themselves and their roles/interest
+     - 
 2. CWT Logistics
 3. CWT plan
 4. Technologies and focus
