@@ -3,9 +3,19 @@
 ## Logistics
 
 Where: Zoom
+
 When:  12/09/2022
+
 Who:   ESGF CWT:
-- 
+   - Carsten Ehbrecht (DKRZ)
+   - Ag Stephens (CEDA)
+   - Paola Nassisi (CMCC)
+   - Sasha Ames (LLNL)
+   - Stephan Kindermann (DKRZ)
+   - David Huard (Ouranos)
+   - Steve Petruzza (Uni of Utah)
+   - Alessandro Spinuso (KNMI)
+   - Rob Jacob (Argonne National Lab, ANL)
 
 ## Actions
 
@@ -97,14 +107,30 @@ Who:   ESGF CWT:
 
 1. Welcome and introductions
    - team introduced themselves and their roles/interest
-     - 
-2. CWT Logistics
-3. CWT plan
-4. Technologies and focus
-5. Code management
-6. Roadmap (proposed)
-7. Discussion and questions
-8. Next steps
-9. AOB
+2. CWT Logistics (see above)
+3. CWT plan (see above)
+4. Technologies and focus (see above)
+5. Code management (see above)
+6. Roadmap (proposed) (see above)
+7. Discussion and questions:
+   - Moving a single solution for the ESGF Compute Node
+     - DH: entry points
+     - SA: not a problem to use a different codebase
+        - if it meets the requirement
+   - Should we use Google Docs:
+     - sometimes, yes
 
+Single code base:
+ - are there entry points
+daops:
+ - fixes - are we using them?
+ - need to feedback to WGCM about data standards etc
+ - 
+Plans for ESGF2:
+ - 
+  
+Roadmap:
+- I suggest having two roadmaps, one for short-term deployment, and one for longer-term development.
 
+8. Next steps (see above)
+9. AOB (see above)
