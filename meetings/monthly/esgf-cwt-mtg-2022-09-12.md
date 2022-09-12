@@ -89,5 +89,19 @@ Who:   ESGF CWT
    - add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
    - Fork github.com/ESGF/esgf.github.io/
      - commit updates, and create a PR for SA to merge
+9. AOB:
+   - Next meeting: 10/10/2022
  
 # Notes
+
+1. Welcome and introductions
+2. CWT Logistics
+3. CWT plan
+4. Technologies and focus
+5. Code management
+6. Roadmap (proposed)
+7. Discussion and questions
+8. Next steps
+9. AOB
+
+
