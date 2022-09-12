@@ -30,7 +30,7 @@ Who:   ESGF CWT
        - Discuss alternative approaches used by external organisations/projects (invited to specific meetings)
        - Capture new requirements
        - Discuss proposals for future developments
-       - Include/merge with other relevant meetings: e.g. the quarterly Birdhouse meetings
+       - Include/merge with other relevant meetings: e.g. maybe the quarterly Birdhouse meetings
        - Investigate other technologies/approaches: e.g. Cloud, Containers, Machine Learning, etc.
    - communication
      - Slack: #cwt (https://esgf-chat.slack.com/archives/C8CQPTQSJ)
