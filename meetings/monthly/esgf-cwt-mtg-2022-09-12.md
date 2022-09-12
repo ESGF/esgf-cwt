@@ -75,7 +75,7 @@ Who:   ESGF CWT
    - GitHub projects to manage and communicate the Roadmap
 6. Roadmap (proposed):
    - Restart CWT Meetings
-   - Improve systems for monitoring/logging usage/problems (extending Dashboard)
+   - Improve systems for monitoring/logging usage/problems (extending roocs dashboard)
    - Deploy production CWT Node ("rook" WPS) on VMs at CEDA and DKRZ using Ansible recipes
    - Document the installation process for the VM-based deployment
    - Publicise the new service and plan user feedback/review
