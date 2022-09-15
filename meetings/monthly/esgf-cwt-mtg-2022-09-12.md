@@ -21,7 +21,7 @@ Who:   ESGF CWT:
 
 - [ ] AS: Report recommencement of CWT meetings to ESGF XC
 - [ ] AS: Publish and share meeting minutes
-- [ ] AS: Draft a roadmap
+- [ ] AS: Draft a roadmap - including DH comment about short and longer-term roadmaps
 - [ ] AS: Draft terms of reference
 
 ## Agenda
@@ -106,31 +106,26 @@ Who:   ESGF CWT:
 # Notes
 
 1. Welcome and introductions
-   - team introduced themselves and their roles/interest
+   - the team introduced themselves and their roles/interest
 2. CWT Logistics (see above)
 3. CWT plan (see above)
 4. Technologies and focus (see above)
 5. Code management (see above)
 6. Roadmap (proposed) (see above)
 7. Discussion and questions:
-   - Moving a single solution for the ESGF Compute Node
-     - DH: entry points
-     - SA: not a problem to use a different codebase
-        - if it meets the requirement
-   - Should we use Google Docs:
-     - sometimes, yes
-
-Single code base:
- - are there entry points
-daops:
- - fixes - are we using them?
- - need to feedback to WGCM about data standards etc
- - 
-Plans for ESGF2:
- - 
-  
-Roadmap:
-- I suggest having two roadmaps, one for short-term deployment, and one for longer-term development.
-
+   - **Moving a single solution for the ESGF Compute Node:**
+     - DH: I am happy with this approach. Are there suitable entry points for others to contribute to the codebase?
+       - AS: Yes, we can separate the work into strands such as: (1) deployment/operations, (2) enhancements to the tests, (3) new functionality, (4) connecting to new datasets/projects.
+     - SA: In principle, it would not a problem to adopt the proposed codebase as long as it meets the requirements of ESGF2
+   - **Use of GitHub versus Google Docs:**
+     - SA: Google Docs is used in many ESGF groups. Is there a reason to avoid it?
+     - AS: For static versions of meeting minutes and some documents, GitHub is a good option because it records the history as fixed versions. However, we may want to use Google Docs in some instances when a more collaborative approach is required. I propose we use the best tools for the job as necessary.
+   - **roocs system for applying "fixes" on-the-fly**:
+     - DH: The "roocs" code includes the `daops` library which has the capability to record, and apply, _fixes_ to ESGF datasets. Is that part of the plan for the CWT work?
+       - AS: Whilst we developed the capability for on-the-fly "fixes" in the C3S-funded work, we did not generate many actual fixes. The default position for the CWT work will be to **run roocs with the fixing functionality switched OFF.** We can review this within the CWT and decide if it should be reconsidered, or implemented in a different way.
+       - SA: we should also feed back to the WGCM about making the data standards precise/complete enough so that data doesn't require fixing.
+   - **Roadmap**:
+     - DH: I suggest having two roadmaps, one for short-term deployment, and one for longer-term development.
+       - AS: That makes good sense, we will consider that when drafting a Roadmap.
 8. Next steps (see above)
 9. AOB (see above)
