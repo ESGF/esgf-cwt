@@ -21,8 +21,10 @@ Who:   ESGF CWT:
 
 - [ ] AS: Report recommencement of CWT meetings to ESGF XC
 - [ ] AS: Publish and share meeting minutes
-- [ ] AS: Draft a roadmap - including DH comment about short and longer-term roadmaps
+- [x] AS: Draft a roadmap - including DH comment about short and longer-term roadmaps
+   - https://github.com/ESGF/esgf-cwt/issues/5 
 - [ ] AS: Draft terms of reference
+   - https://github.com/ESGF/esgf-cwt/issues/6 
 
 ## Agenda
 
