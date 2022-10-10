@@ -9,44 +9,53 @@ When:  10/10/2022
 Who:   ESGF CWT:
    - Carsten Ehbrecht (DKRZ)
    - Ag Stephens (CEDA)
-   - Paola Nassisi (CMCC)
    - Sasha Ames (LLNL)
-   - Stephan Kindermann (DKRZ)
+   - Katharina Berger (DKRZ)
    - David Huard (Ouranos)
-   - Steve Petruzza (Uni of Utah)
-   - Alessandro Spinuso (KNMI)
-   - Rob Jacob (Argonne National Lab, ANL)
 
 ## Actions
 
 - [ ] AS: Report recommencement of CWT meetings to ESGF XC
 - [ ] AS: Publish and share meeting minutes
-- [x] AS: Draft a roadmap - including DH comment about short and longer-term roadmaps
-   - https://github.com/ESGF/esgf-cwt/issues/5 
-- [ ] AS: Draft terms of reference
+- [ ] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/issues/5 
+- [ ] AS/CE: Draft the Terms of Reference then share: - 
+- [ ] 
    - https://github.com/ESGF/esgf-cwt/issues/6 
 
 ## Agenda
 
 1. Welcome and introductions
 2. Actions and minutes from last meeting
-- [ ] AS: Report recommencement of CWT meetings to ESGF XC
-- [ ] AS: Publish and share meeting minutes
-- [x] AS: Draft a roadmap - including DH comment about short and longer-term roadmaps
-   - https://github.com/ESGF/esgf-cwt/issues/5 
-- [ ] AS: Draft terms of reference
+- [ ] AS: Report recommencement of CWT meetings to ESGF XC - ongoing
+- [x] AS: Publish and share meeting minutes - shared on Slack
+- [x] AS: Draft a roadmap: see https://github.com/ESGF/esgf-cwt/issues/5 
+- [x] AS: Draft terms of reference: see 
    - https://github.com/ESGF/esgf-cwt/issues/6 
 3. Roadmap:
 - https://github.com/ESGF/esgf-cwt/issues/5
+
+- SA: Scott has made some suggestions of alternative approaches (as part of ESGF2) - to be shared with this group (for next meeting?).
+
 4. Discussion and questions
+
+5. Current Team Efforts:
+
+- a place for existing issues/discussion and farming out the work
+
+AS: Yes, we can separate the work into strands such as: (1) deployment/operations, (2) enhancements to the tests, (3) new functionality, (4) connecting to new datasets/projects.
+
 5. Next steps:
+   - start implementing the Roadmap
    - add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
    - Fork github.com/ESGF/esgf.github.io/
      - commit updates, and create a PR for SA to merge
+   - Can rewrite the entire CWT/Compute section.
+   - DH: can review drafts (or draft)
+
 6. AOB:
-   - Next meeting: 
+   - Next meeting:
      - Date: 14/11/2022
-     - **FOCUS: Wider meeting to discuss technologies, projects etc.***
+     - **FOCUS: Wider "share and discuss" meeting to discuss technologies, projects etc.**
  
 # Notes
 
