@@ -16,11 +16,9 @@ Who:   ESGF CWT:
 ## Actions
 
 - [ ] AS: Report recommencement of CWT meetings to ESGF XC
-- [ ] AS: Publish and share meeting minutes
-- [ ] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/issues/5 
-- [ ] AS/CE: Draft the Terms of Reference then share: - 
-- [ ] 
-   - https://github.com/ESGF/esgf-cwt/issues/6 
+- [x] AS: Publish and share meeting minutes
+- [ ] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/issues/5
+- [ ] AS/CE: Draft the Terms of Reference then share: - https://github.com/ESGF/esgf-cwt/issues/6
 
 ## Agenda
 
