@@ -22,6 +22,26 @@ Who:   ESGF CWT:
 
 ## Agenda
 
+This meeting is a change from the usual as we will be inviting people from outside the team to contribute to a wider discussion around compute services. We will be opening up the agenda to allow different groups to:
+- share their work/experiences
+- exchange ideas
+- make suggestions about future directions
+
+People may want to bring along ideas related to new technologies/standards/projects, such as:
+- PANGEO
+- OGC Web Services
+- OGC API - Processes
+- CLINT - Climate Intelligence
+- Integration with other tools/domains
+- Jupyter Notebooks
+- Docker, Singularity, Kubernetes etc
+- Other tools not yet considered
+
+
+...
+
+---
+
 1. Welcome and introductions
 2. Actions and minutes from last meeting
 - [ ] AS: Report recommencement of CWT meetings to ESGF XC - ongoing
