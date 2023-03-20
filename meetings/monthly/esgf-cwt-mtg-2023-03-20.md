@@ -11,39 +11,72 @@ Who:  ESGF CWT:
 - Carsten Ehbrecht (DKRZ)
 - Sasha Ames (LLNL)
 - David Huard (Ouranos)
-- Alessandro 
+- Alessandro Spinuso 
 - Ezequiel Cimadevilla (Instituto de Física de Cantabria (IFCA))
 
 ## Actions
 
+- [ ] AS/CE: Contact CMCC regarding `roocs` installation
 - [ ] AS/CE: think about roocs caching of remote data.
-- [ ] DH: Ask colleagues if they have thoughts on how caching of data could be managed within `roocs`.
-- [ ] AS/CE: Implement the API KEY from the start. We might be able to use Keycloak to provide this.
+- [ ] AS/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this.
+- [ ] DH: Keep CWT informed of developments regarding WMO + ESGF interactions.
 
 ## Agenda
 
 1. Welcome and introductions
 
-3. Actions and minutes from last meeting
-- [x] AS: Report recommencement of CWT meetings to ESGF XC
-- [x] AS: Publish and share meeting minutes
-- [x] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/milestones
-- [x] AS/CE: Draft the Terms of Reference then share: - https://github.com/ESGF/esgf-cwt/blob/main/documents/esgf-cwt-tor-2022-12-12.pdf
+2. Actions and minutes from last meeting
+- [ ] AS/CE: think about roocs caching of remote data. - **ongoing**
+- [x] DH: Ask colleagues if they have thoughts on how caching of data could be managed within `roocs`.
+- [ ] AS/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this. - **ongoing**
 
 3. Roadmap:
 - the team reviewed the Roadmap, at: [https://github.com/ESGF/esgf-cwt/issues/5](https://github.com/ESGF/esgf-cwt/milestones)
 
 4. Discussion and questions
 
-- C3S roocs
-- Proxy usage in the `roocs` stack
-- CaSPAr plans
-- Kerchunk thoughts/plans
-- CMIP7 Data Access Team
-- ESGF-Hybrid reports
-- Fixing data?
+- CE: C3S roocs:
+  - New version of the C3S Climate Data Store portal:
+    - Will only interact with our `rook` WPS
+  - There is a Slurm queue to handle heavy load:
+    - already running at DKRZ
+  - New IPCC Atlas data is being prepared:
+    - Uses Intake catalog
+    - Used to filter existing files _without operators_ (initially)
+    - Download already works
+    - Data is a subset of CMIP5 and CORDEX  
+  - Support for Decadal CMIP6 data:
+    - Each request returns 10 ensemble members
+    - They get concatenated to add in a new coordinate variable (ensemble member)
+    - Could use caching on the server-side
 
-- Caching:
+- ASpi: CMCC have deployed `roocs` - and attaching to Keycloak and Api Key
+  - Paula and Marco have been working on this.
+- [ ] AS/CE: Contact CMCC regarding `roocs` installation
+
+- ASte: Proxy usage in the `roocs` stack:
+  - showed issue ("Build a web-proxy into the deployment stack"): https://github.com/ESGF/esgf-cwt/issues/27
+  - SA: the basic architecture looks okay. Regarding the _WPS Access Manager (WAM!)_, you might be able to re-use the prior knowledge in `Slurm` to deliver a _fair-share_ approach.
+  - CE: `Twitcher` might be able to do some of this, but using existing components does make sense. When we get to fine-grained access, not sure if it could be controlled by `KeyCloak`.
+
+- DH: CaSPAr plans
+  - WMO has a recent initiative to update its holdings and sharing of data.
+  - Looks similar to EGSF, see:
+    - https://docs.wis2box.wis.wmo.int/en/latest/
+  - It would be great to see high-level information-sharing and discussion
+  - In Canada, one opportunity for building the bridge, would be the CaSPAr project:
+    - combining WMO and ESGF components
+  - Could be an opportunity to bring resources to ESGF
+  - SA: WMO sponsors the WCRP, and the WCRP oversees ESGF - there should be better connections
+- [ ] DH: Keep CWT informed of developments regarding WMO + ESGF interactions.
+
+- Kerchunk thoughts/plans
+  - See: https://docs.google.com/document/d/174yaaVnB-D9w_ne5ZkA9bdhmu1e0QjUA0U6Lj4156aE/edit#heading=h.7gv8m3mhigte
+
+- Fixing data?
+  - Apache Iceberg - could fit here. 
+
+- Caching data from other ESGF nodes:
   - Weaver: already has functionality to query other nodes 
     - So Weaver can be a proxy, and/or can act as a WPS itself (if the WPS is dockerised)
 
@@ -57,4 +90,3 @@ Who:  ESGF CWT:
 6. AOB:
    - Next meeting:
      - Date: 17/04/2023 (avoiding 10th because UK holiday)
- 
