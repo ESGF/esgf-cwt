@@ -17,11 +17,10 @@ Who:  ESGF CWT:
 
 - [x] AS: Report recommencement of CWT meetings to ESGF XC
 - [x] AS: Publish and share meeting minutes
-- [ ] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/milestones
+- [x] AS: Share the roadmap with the XC and Slack team - https://github.com/ESGF/esgf-cwt/milestones
 - [x] AS/CE: Draft the Terms of Reference then share: - https://github.com/ESGF/esgf-cwt/blob/main/documents/esgf-cwt-tor-2022-12-12.pdf
 
 ## Agenda
-
 
 
 - Provenance (used by C4I - Notebooks)
