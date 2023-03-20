@@ -11,8 +11,7 @@ Who:  ESGF CWT:
 - Carsten Ehbrecht (DKRZ)
 - Sasha Ames (LLNL)
 - David Huard (Ouranos)
-- Katharina Berger (DKRZ)
-- Rob Jacob (ANL)
+- Alessandro 
 - Ezequiel Cimadevilla (Instituto de Física de Cantabria (IFCA))
 
 ## Actions
@@ -36,16 +35,17 @@ Who:  ESGF CWT:
 
 4. Discussion and questions
 
-
-5. Current Team Efforts:
-
 - C3S roocs
 - Proxy usage in the `roocs` stack
 - CaSPAr plans
 - Kerchunk thoughts/plans
 - CMIP7 Data Access Team
 - ESGF-Hybrid reports
+- Fixing data?
 
+- Caching:
+  - Weaver: already has functionality to query other nodes 
+    - So Weaver can be a proxy, and/or can act as a WPS itself (if the WPS is dockerised)
 
 5. Next steps:
    - add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
