@@ -17,6 +17,8 @@ Who:  ESGF CWT:
 ## Actions
 
 - [ ] AS/CE Consider Jenkins and other CI systems for potentially running the test suite
+- [ ] AS: look at parquet as Kerchunk format - does it help us with large file problems
+- [ ] AS organise meeting with DH to discuss supporting the CWT
 - [ ] AS/CE: add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
 - [ ] AS/CE: think about `roocs` caching of remote data - **Ongoing - meeting on Friday**
 - [ ] AS/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this. - **Ongoing - meeting on Friday**
@@ -69,36 +71,25 @@ AS Completed discussion notes from ESGF Hybrid meeting:
 - AS: my conclusion is:
   - Cloud-optimised approach AND remote processing ARE BOTH REQUIRED AND USEFUL. 
 
-Kerchunk thoughts/plans
+Kerchunk thoughts/plans:
 - AS: we are planning to get some community engagement on Kerchunk, we have been doing experiments at CEDA and my colleague will publish a blog on some of our findings/issues.
 - ESGF Kerchunk google doc: https://docs.google.com/document/d/174yaaVnB-D9w_ne5ZkA9bdhmu1e0QjUA0U6Lj4156aE/edit#heading=h.7gv8m3mhigte
-- MG: Would be great to revisit and work together over ESGF. Note that Deepak at NCAR has put together a post about using pre-aggregation:
-
-https://ncar.github.io/esds/posts/2023/kerchunk-mom6/
-
+- MG: Would be great to revisit and work together over ESGF. Note that Deepak at NCAR has put together a post about using pre-aggregation: https://ncar.github.io/esds/posts/2023/kerchunk-mom6/
 MG: Some work has been done for using Parquet and other formats for Kerchunk.
-
-- [ ] AS: look at parquet for Kerchunk format
-
-
+- [ ] AS: look at parquet as Kerchunk format - does it help us with large file problems.
 
 5. Next steps:
-- add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
+- [ ] AS: add a “compute” section to this page on the ESGF site? https://esgf.github.io/projects.html
   - Fork github.com/ESGF/esgf.github.io/
   - commit updates, and create a PR for SA to merge
   - Can rewrite the entire CWT/Compute section.
   - DH: can review drafts (or draft)
 
 6. AOB:
-
-DH Has some funding to support to work on the CWT
-
-- [ ] AS organise meeting with DH
-
-MG: For AGU, supporting short-course session.
-
-SA: Forrest has drafted a google doc for short courses for AGU. If CWT Compute Node is working - we could include it.
-
-SA Regarding Keycloak, it looks like [EGI-Checkin](https://www.egi.eu/service/check-in/) and [Globus-Auth](https://www.globus.org/platform/services/auth) might be replacing Keycloak for LLNL.
-   - Next meeting:
-     - Date: 15/05/2023 (avoiding 8th because UK holiday)
+- DH Has some funding to support to work on the CWT
+  - [ ] AS organise meeting with DH to discuss supporting the CWT
+- MG: For AGU, supporting short-course session.
+- SA: Forrest has drafted a google doc for short courses for AGU. If CWT Compute Node is working - we could include it.
+- SA: Regarding Keycloak, it looks like [EGI-Checkin](https://www.egi.eu/service/check-in/) and [Globus-Auth](https://www.globus.org/platform/services/auth) might be replacing Keycloak for LLNL.
+- Next meeting:
+  - Date: 15/05/2023 (avoiding 8th because UK holiday)
