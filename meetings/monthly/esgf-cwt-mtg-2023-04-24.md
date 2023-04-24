@@ -11,8 +11,7 @@ Who:  ESGF CWT:
 - Carsten Ehbrecht (DKRZ)
 - Sasha Ames (LLNL)
 - David Huard (Ouranos)
-- Alessandro Spinuso 
-- Ezequiel Cimadevilla (Instituto de Física de Cantabria (IFCA))
+- Maxwell Grover (ANL)
 
 ## Actions
 
