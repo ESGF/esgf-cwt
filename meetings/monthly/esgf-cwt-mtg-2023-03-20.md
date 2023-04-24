@@ -16,8 +16,8 @@ Who:  ESGF CWT:
 
 ## Actions
 
-- [ ] AS/CE: Contact CMCC regarding `roocs` installation
-- [ ] AS/CE: think about roocs caching of remote data.
+- [x] AS/CE: Contact CMCC regarding `roocs` installation - **rook deployed over CMCC backend - meeting planned**
+- [ ] AS/CE: think about `roocs` caching of remote data.
 - [ ] AS/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this.
 - [ ] DH: Keep CWT informed of developments regarding WMO + ESGF interactions.
 
