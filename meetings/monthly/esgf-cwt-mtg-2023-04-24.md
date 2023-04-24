@@ -36,24 +36,27 @@ Who:  ESGF CWT:
 
 3. Roadmap and progress
 
-- Unit testing:
-  - Alan at CEDA, starting to look at generic testing structure:
-    - https://github.com/roocs/rook/issues/222#issuecomment-1434511712
+Building a testing framework to support extensive testing of _lots of_ ESGF data:
+- AS: We already have many unit tests for the `roocs` stack - but we want to build confidence in the code by continually adding more datasets to the test suite. We propose a generic testing structure that can be run across multiple sites, and reads real ESGF data from the local data node. Here is the plan:
+  - https://github.com/roocs/rook/issues/222#issuecomment-1434511712
 
-- Working with remote `rooks` and data:
-  - Ag and Carsten discussed:
-    - https://raw.githubusercontent.com/ESGF/esgf-cwt/main/drawio/esgf-cwt-delegation_v2.png
 
-- Ag Completed discussion notes from ESGF Hybrid meeting:
-  - Server-side computing: 
-  - Data Interfaces and Access:
-  - Conclusion?
-    - Cloud-optimised approach AND remote processing ARE A GOOD COMBINATION???!!! 
+
+Delegated processes and remote data caching in the `roocs` stack:
+- AS and CE have been discussing this issue, and came up with this diagram:
+  - https://raw.githubusercontent.com/ESGF/esgf-cwt/main/drawio/esgf-cwt-delegation_v2.png
+
+
+
+
 
 4. Discussion and questions
 
-
-
+- Ag Completed discussion notes from ESGF Hybrid meeting:
+  - Server-side computing: https://docs.google.com/document/d/15voNXoyrkZ1TdFnftieJPCXspwbSgpxB3ntIKbufAXk/edit?pli=1#heading=h.xdwp3qbdme0v
+  - Data Interfaces and Access: https://docs.google.com/document/d/1mu3_1TDHJr9aqvEba9VWGAXO_3Nm5WESZxj2LtOjbZM/edit?pli=1#heading=h.xdwp3qbdme0v
+  - (My) conclusion is:
+    - Cloud-optimised approach AND remote processing ARE BOTH REQUIRED AND USEFUL. 
 
 - Kerchunk thoughts/plans
   - See: https://docs.google.com/document/d/174yaaVnB-D9w_ne5ZkA9bdhmu1e0QjUA0U6Lj4156aE/edit#heading=h.7gv8m3mhigte
