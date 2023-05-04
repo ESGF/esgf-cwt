@@ -1,0 +1,9 @@
+# conda env update -f environment.yml
+name: cwt
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - jupyterlab
+  - prov
+ 
