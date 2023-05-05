@@ -1,6 +1,6 @@
 # CWT Demo Notebooks
 
-JupterLab notebooks.
+JupyterLab notebooks.
 
 ## Installation
 
