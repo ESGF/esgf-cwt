@@ -84,16 +84,17 @@ Kerchunk, Zarr etc:
 - Kerchunk with HTTP(S) instead of S3
 - xarray xpublish vs Kerchunk
 
-- Ag change of role, implications/opportunities
+Ag change of role, implications/opportunities
   - Neil, Alan at CEDA
-- Alan coverage testing system
+
+Alan coverage testing system
   - TODO:
     - clisops/xarray versions in the ResultsDB? - needs to be in there
 	- CSV file - how to merge parallel results from different sites
 	  - needs a merge capability
   - https://github.com/roocs/daops/blob/test_data_pools_new/tests/data_pools_checks/run_data_pools_checks.py#L793
   
-- Ability for `daops` to read Kerchunk files:
+Ability for `daops` to read Kerchunk files:
   - See: https://github.com/roocs/roocs-utils/issues/106
 
 Ouranos work on CWT:
