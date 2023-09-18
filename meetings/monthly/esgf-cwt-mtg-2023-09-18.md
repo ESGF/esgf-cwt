@@ -26,9 +26,9 @@ Who:  ESGF CWT:
 
 ## Agenda
 
-1. Welcome and introductions
+### 1. Welcome and introductions
 
-2. Actions and minutes from last meeting
+### 2. Actions and minutes from last meeting
 
 Last meeting (2023-07-10) was a discussion meeting:
 * Presentation 1: The CMCC Data Delivery System: Marco Mancini (CMCC)
@@ -44,7 +44,7 @@ Last meeting (2023-07-10) was a discussion meeting:
 - [ ] ASte/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this. - **Ongoing - meeting on Friday**
 - [ ] DH: Keep CWT informed of developments regarding WMO + ESGF interactions - **Ongoing**
 
-3. Discussion
+### 3. Discussion
 
 Merging `roocs-utils` content into `clisops`:
 - https://roocs.github.io/overview/
@@ -102,10 +102,10 @@ Interactions with the WMO regarding WIS:
 ...next steps...
 
 
-4. Next steps:
+### 4. Next steps:
 
 
-5. AOB:
+### 5. AOB:
 
 
 
