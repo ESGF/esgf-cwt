@@ -14,7 +14,11 @@ Who:  ESGF CWT:
 - Ezequiel Cimadevilla (Uni Can)
 - Alessandro Spinuso (KNMI)
 - Alessandra Nuzzo (CMCC)
-- Forrest Hoffman (ORNL)
+- Maxwell Grover
+- Charles Gauthier
+- Neil Massey
+- Paola Nassisi (CMCC)
+- Ben Coalson
 
 ## Actions
 
