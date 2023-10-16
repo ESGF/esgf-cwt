@@ -125,6 +125,14 @@ See: https://github.com/roocs/roocs-utils/issues/106
 #### Interactions with the WMO regarding WIS:
 - DH: We had a meeting with Tom Kralidis, to discuss WMO WIS system. Uses a federated system around the globe - like ESGF.
 
+#### CMOR-Fixer
+
+PDR:
+- Take a look at CMOR Fixer - developed by KNMI - lots of fixing
+- [ ] AS/SA to look at CMOR Fixer
+  - https://github.com/EC-Earth/cmor-fixer
+  - it appends a line to headers noting that it has been processed
+
 ### 4. Next steps:
 
 
