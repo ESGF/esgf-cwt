@@ -14,11 +14,13 @@ Who:  ESGF CWT:
 - Ezequiel Cimadevilla (Uni Can)
 - Alessandro Spinuso (KNMI)
 - Alessandra Nuzzo (CMCC)
-- Maxwell Grover
-- Charles Gauthier
-- Neil Massey
+- Maxwell Grover (ANL)
+- Charles Gauthier (Ouranos)
+- Neil Massey (STFC CEDA)
 - Paola Nassisi (CMCC)
-- Ben Coalson
+- Ben Coalson (ORNL)
+- Prashanth Dwarakanath Roa (LIU)
+- Forrest Hoffman (ORNL)
 
 ## Actions
 
@@ -27,6 +29,7 @@ Who:  ESGF CWT:
 - [ ] ASte/CE: Update the diagram to cope with the case of multiple inputs from multiple nodes - might need the multi-step at the start of the diagram - **ongoing**
 - [ ] ASte/CE: Implement the API KEY/proxy from the start. We might be able to use Keycloak to provide this. - **Ongoing - meeting on Friday**
 - [ ] DH: Keep CWT informed of developments regarding WMO + ESGF interactions - **Ongoing**
+- [ ] AS/CE: look at CMOR Fixer (https://github.com/EC-Earth/cmor-fixer) - which appends a line to headers noting that it has been processed
 
 ## Agenda
 
@@ -50,8 +53,9 @@ Last meeting (2023-07-10) was a discussion meeting:
 
 ### 3. Discussion
 
-Merging `roocs-utils` content into `clisops`:
-- https://roocs.github.io/overview/
+#### Merging `roocs-utils` content into `clisops` withing roocs
+
+Overview: https://roocs.github.io/overview/
 
 NOTE: current imports are:
 
@@ -79,39 +83,54 @@ STEP 2: migrate code components from `roocs_utils` into parts of `clisops` libra
 - Update `rook`, `daops`, `dachar` and `clisops` so that imports (and tests) all work
 - Release new versions of all packages
 
-Kerchunk, Zarr etc:
-- Parquet
-- Kerchunk with HTTP(S) instead of S3
-- xarray xpublish vs Kerchunk
+#### Experiments with Kerchunk, Parquet etc
 
-Ag change of role, implications/opportunities
-  - Neil, Alan at CEDA
+- Parquet is a column-oriented tabular data format:
+  - it can be used to store Kerchunk content
+  - it splits content into multiple files so enables _lazy-loading_ of metadata
+- Kerchunk with HTTP(S) instead of S3:
+  - at CEDA, we are working on building Kerchunk on top of the HTTPS endpoints already provided by our data nodes.
+- xarray `xpublish` vs `Kerchunk`
+  - EC has done some work to compare these
+  - Generation of Kerchunk files is a costly process
 
-Alan coverage testing system
-  - TODO:
-    - clisops/xarray versions in the ResultsDB? - needs to be in there
-	- CSV file - how to merge parallel results from different sites
+- [ ] AS/CE: discuss in more detail with EC
+
+#### Ag change of role, implications/opportunities
+
+- CEDA: Alan Iwi, Neil Massey being more involved
+- CWT Co-chair: open
+
+#### Improving the test coverage (of data) for roocs
+
+Currently reviewing a Pull Request to add in automated testing:
+
+https://github.com/roocs/daops/blob/test_data_pools_new/tests/data_pools_checks/run_data_pools_checks.py#L793
+
+Additional actions:
+ - [ ] clisops/xarray versions in the ResultsDB? - needs to be in there
+ - CSV file - how to merge parallel results from different sites
 	  - needs a merge capability
-  - https://github.com/roocs/daops/blob/test_data_pools_new/tests/data_pools_checks/run_data_pools_checks.py#L793
-  
-Ability for `daops` to read Kerchunk files:
-  - See: https://github.com/roocs/roocs-utils/issues/106
 
-Ouranos work on CWT:
+#### Ability for `daops` to read Kerchunk files:
+
+See: https://github.com/roocs/roocs-utils/issues/106
+
+#### Ouranos work on CWT
+
 - DH:
-  - an intern will be to embed polygon averaging into "roocs"
+  - CG, working at Ouranos, will be to embed polygon averaging into "roocs"
     - to allow sending in a Shapefile to define the polygon and then returning the subset within it
 
-Interactions with the WMO regarding WIS:
+#### Interactions with the WMO regarding WIS:
 - DH: We had a meeting with Tom Kralidis, to discuss WMO WIS system. Uses a federated system around the globe - like ESGF.
-...next steps...
-
 
 ### 4. Next steps:
 
 
 ### 5. AOB:
 
+Next meeting: 16th October 2023
 
 
 
