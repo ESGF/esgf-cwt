@@ -4,7 +4,7 @@
 ## Logistics
 
 Where:
- 
+
 https://whereby.com/tea-room-cwt
 
 When:  13/11/2023 
@@ -41,7 +41,12 @@ Who:  ESGF CWT:
 - [x] CE send out new invite
 - [ ] DH: Set up a mtg with Tom Kralidis and SA, to discuss WMO WIS - in November.
 
+
 ### 3. Discussion
+
+CE: 
+* who is using the ioos compliance checker?
+https://github.com/ioos/compliance-checker 
 
 
 ### 4. Next steps:
