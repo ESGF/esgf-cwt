@@ -16,20 +16,13 @@ When:  11/12/2023
 
 Who:
 
-Potentially available:
- 
 - Maxwell Grover (ANL)
-- Neil Massey (STFC CEDA)
 - Carsten Ehbrecht (DKRZ)
-- Martin Schupfner (DKRZ)
-- Sasha Ames (LLNL)
 - David Huard (Ouranos)
 - Ezequiel Cimadevilla (Uni Can)
-- Charles Gauthier (Ouranos)
+- Martin Schupfner (DKRZ)
 - Nils Hempelmann (OGC)
-- Christian Pagé (CERFACS)
-- Forrest Hoffman (ORNL)
-- Ben Coalson (ORNL)
+- Paola Nassisi (CMCC)
 
 
 ## Agenda
@@ -38,7 +31,7 @@ Potentially available:
 
 ### 2. Actions and minutes from last meeting
 
-- [ ] Max test running rook on the US side - Ansible
+- [ ] Max test running rook on the US side - Ansible (ongoing)
 - [ ] Neil follow up with CEDA group about STAC + elasticsearch process
 - [ ] DH: Set up a mtg with Tom Kralidis and SA, to discuss WMO WIS - in November.
     - David working on this, will update at the next meeting
@@ -46,7 +39,24 @@ Potentially available:
 
 ### 3. Discussion
 
+Round Table:
+
+Max: 
+
+- working on the Ansible deployment ... on ubuntu ... but found some issues.
+
+
+Nils:
+
+- innovation week ... Tom Landry provided contact
+- discussions: bringing services together ... copernicus ... noaa ... nasa 
+- motivation: why should they change their systems
+- OGC: better arguments to have fair climate services
+- upcoming pilot: desaster and recovery service
+- Copernicus services will jump in for the second phase
+
 CE:
+
 - new rook and clisops release with regridding operator. 
 - example notebook with regrid operator: 
 https://nbviewer.org/github/roocs/rooki/blob/master/notebooks/demo/demo-rooki-regrid-cmip6.ipynb 
@@ -55,9 +65,25 @@ https://nbviewer.org/github/roocs/rooki/blob/master/notebooks/demo/demo-rooki-re
 - .. ATLAS v0 is already available:
 https://cds.climate.copernicus.eu/cdsapp#!/dataset/projections-climate-atlas 
 
+Ezequiel:
 
+- pangeo meeting: how costly to move data to the cloud?
+- ... very costly
+- David: make a show case
+- binder links:
+https://github.com/zequihg50/2023-esgf-virtual-aggregation#rationale
 
-Round Table:
+David:
+
+- my college is working on spatial aggregation
+
+Martin:
+
+- PR for xesmf ... for convervative regriding.
+
+Paola:
+
+- integrated the "rook wps" (without clisops ... just the interface) in our system at CMCC.
 
 
 ### 4. Next steps:
