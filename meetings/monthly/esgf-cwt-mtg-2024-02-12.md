@@ -23,8 +23,12 @@ Who:
 - Martin Schupfner (DKRZ)
 - Fabian Wachsmann (DKRZ)
 - Nils Hempelmann (OGC)
-- Paola Nassisi (CMCC)
-
+- Alessandra Nuzzo (CMCC)
+- Sasha Ames (LLNL)
+- Zach Price (ORNL)
+- Ben Coalson (ORNL)
+- Katharina Berger (DKRZ)
+- Alessandro S. (KNMI)
 
 ## Agenda
 
