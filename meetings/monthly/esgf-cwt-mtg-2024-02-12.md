@@ -111,7 +111,7 @@ Fabi:
 - use holoviews in a notebook app to visualize data with time-slider ... like ncview
 - serves kerchunked files: 1 GB memory for 100 TB files
 - demo VM at DKRZ: 16 CPUs, 64 GB, limited to 4 parallel requests
-- [slides] (https://docs.google.com/presentation/d/1scqkdz84SDocLqs3pV-L2okmfyHdiARMn6eb0Mae9Ik/edit#slide=id.p1)
+- [xpublish slides by Fabi](https://docs.google.com/presentation/d/1scqkdz84SDocLqs3pV-L2okmfyHdiARMn6eb0Mae9Ik/edit#slide=id.p1)
 - https://eerie.cloud.dkrz.de/datasets
 - https://gitlab.dkrz.de/data-infrastructure-services/eerie-io/-/blob/main/xpublish/host_dynamic_dsets.py?ref_type=heads
 - https://swift.dkrz.de/v1/dkrz_7fa6baba-db43-4d12-a295-8e3ebb1a01ed/apps/eerie-cloud_view-and-access.htm
