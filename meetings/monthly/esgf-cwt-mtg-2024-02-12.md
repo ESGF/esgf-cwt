@@ -24,12 +24,12 @@ Who:
 - Fabian Wachsmann (DKRZ)
 - Katharina Berger (DKRZ)
 - Nils Hempelmann (OGC)
-- Sasha Ames (LLNL)
-- Ben Coalson (ORNL)
-- Zach Price (ORNL)
-- Alessandro Spinuso (KNMI)
 - Alessandra Nuzzo (CMCC)
-
+- Sasha Ames (LLNL)
+- Zach Price (ORNL)
+- Ben Coalson (ORNL)
+- Katharina Berger (DKRZ)
+- Alessandro Spinuso (KNMI)
 
 ## Agenda
 
