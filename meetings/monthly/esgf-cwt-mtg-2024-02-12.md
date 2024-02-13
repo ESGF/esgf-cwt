@@ -28,7 +28,6 @@ Who:
 - Sasha Ames (LLNL)
 - Zach Price (ORNL)
 - Ben Coalson (ORNL)
-- Katharina Berger (DKRZ)
 - Alessandro Spinuso (KNMI)
 
 ## Agenda
@@ -49,7 +48,7 @@ Round Table:
 Max: 
 
 - ESGF F2F in Washington 23.4-26.4 (?) ... hard to get a hotel there ... 
-- scipy conference in US
+- scipy conference in US: https://scipy.org/
 - got pywps deployment running with ansible ... talk about it next time
 
 
@@ -69,13 +68,13 @@ Sasha:
 
 David:
 
-- bringing togther OSGO and WMO
-- Tom Kralidis from WMO ... could talk at ESGF F2F ... or to us
+- bringing togther OSGEO and WMO
+- TODO: Tom Kralidis from WMO ... could talk at ESGF F2F ... or to us
 
 
 Charles:
 
-- PR to clisops merged
+- PR to clisops with `average_shape` operator merged
 - TODO: PR daops needs review
 
 
