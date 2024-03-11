@@ -85,6 +85,10 @@ Carsten:
 * updated ansible deployment for pywps with slurm. works on almalinux 9.x. still on dev branch:
 https://github.com/bird-house/ansible-wps-playbook/tree/dev-almalinux9
 
+Nils:
+* OGC Innovation days in July 1-2, 2024, Tartu, Estonia
+https://2024.europe.foss4g.org/schedule/ogc-euidays/ 
+
 
 ### 5. Next steps:
 
