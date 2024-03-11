@@ -18,17 +18,13 @@ Who:
 
 - Maxwell Grover (ANL)
 - Carsten Ehbrecht (DKRZ)
-- David Huard (Ouranos)
 - Charles Gauthier (Ouranos)
+- David Huard (Ouranos)
 - Martin Schupfner (DKRZ)
-- Fabian Wachsmann (DKRZ)
-- Katharina Berger (DKRZ)
-- Nils Hempelmann (OGC)
-- Alessandra Nuzzo (CMCC)
+- Ezequiel Cimadevilla (Uni Can)
+- Forrest Hoffman (ORNL)
 - Sasha Ames (LLNL)
 - Zach Price (ORNL)
-- Ben Coalson (ORNL)
-- Alessandro Spinuso (KNMI)
 
 ## Agenda
 
@@ -36,6 +32,7 @@ Who:
 
 ### 2. Actions and minutes from last meeting
 
+- [ ] Carsten: add wiki page for presenters
 - [ ] Max test running rook on the US side - Ansible (ongoing)
 - [ ] Neil follow up with CEDA group about STAC + elasticsearch process
 - [ ] DH+Sasha+Max: Set up a mtg with Tom Kralidis to discuss WMO WIS - at ESGF F2F in April? or at least in CWT
@@ -48,7 +45,43 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 Round Table:
 
-CE: 
+Max:
+* try get ansible playbooks running.
+* working on rook branch:
+    * https://github.com/mgrover1/rook
+* using clisops in esgf-cookbook:
+    * https://github.com/esgf2-us/esgf-cookbook
+    * https://docs.google.com/document/d/18nVNFDOq7K8YKXb_-klrJsXewD7H6sDzIikh_E0Luwk/edit#heading=h.hrc5wii4n6kr 
+* ESGF F2F registration is open:
+https://bit.ly/48PQwhq
+
+Charles:
+* daops/clisops: PR with AverageShape operator is merged.
+
+David:
+* working with xpublish
+
+Ezequiel:
+* made a presentation at pangeo
+
+Sasha:
+* no updates ... looked at wps playbook
+* ESGF F2F: maybe not the right scope for Tom Kralidis
+
+Forrest:
+* no updates
+
+Zach:
+* no updates
+
+Martin:
+* issue in xarray with cftime:
+https://github.com/pydata/xarray/issues/7794
+* this is blocking us from updating to a new xarray version (one year old) in clisops
+* ... Sasha: maybe ask https://xarray.dev/team   ?
+* ... David: I ask one of my collegues
+
+Carsten: 
 * updated ansible deployment for pywps with slurm. works on almalinux 9.x. still on dev branch:
 https://github.com/bird-house/ansible-wps-playbook/tree/dev-almalinux9
 
