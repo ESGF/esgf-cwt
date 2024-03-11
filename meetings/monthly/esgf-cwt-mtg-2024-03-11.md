@@ -38,11 +38,11 @@ Who:
 
 - [ ] Max test running rook on the US side - Ansible (ongoing)
 - [ ] Neil follow up with CEDA group about STAC + elasticsearch process
-- [ ] DH+Sasha+Max: Set up a mtg with Tom Kralidis to discuss WMO WIS - at ESGF F2F in April? or at least in CWT (#35)
+- [ ] DH+Sasha+Max: Set up a mtg with Tom Kralidis to discuss WMO WIS - at ESGF F2F in April? or at least in CWT
 
 ### 3. Presentation (optional)
 
-See list of presentations in issue #35.
+See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 ### 4. Discussion
 
