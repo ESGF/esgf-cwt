@@ -62,7 +62,7 @@ David:
 * working with xpublish
 
 Ezequiel:
-* made a presentation at pangeo
+* I gave a talk on Pangeo showcase (7th February) about Virtual Analysis Ready Data on ESGF, recording available here: https://discourse.pangeo.io/t/pangeo-showcase-virtual-analysis-ready-data-for-cmip6-and-esgf/4004
 
 Sasha:
 * no updates ... looked at wps playbook
