@@ -16,17 +16,14 @@ When:  08/04/2024
 
 Who:
 
-- Maxwell Grover (ANL)
 - Carsten Ehbrecht (DKRZ)
-
-
+- Nathan Collier (ORNL)
+- Nils Hempelmann (OGC)
 - Charles Gauthier (Ouranos)
 - David Huard (Ouranos)
-- Martin Schupfner (DKRZ)
 - Ezequiel Cimadevilla (Uni Can)
-- Forrest Hoffman (ORNL)
-- Sasha Ames (LLNL)
-- Zach Price (ORNL)
+- Alessandro Spinuso (KNMI)
+
 
 ## Agenda
 
@@ -41,14 +38,53 @@ Who:
 
 ### 3. Presentation (optional)
 
-Nathan presents intake-esgf.
 
 See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
+
+
+Nathan presented intake-esgf:
+
+https://github.com/esgf2-us/intake-esgf
+
+Notes:
+* search and download ESGF data
+* queries globus index and "legacy" ESGF API services
+* other index services can be added like STAC
+* caches downloaded data with path structure of ESGF files
+* existing local data pools can be added to the cache
+* besides search and download, additional operators can be definded, like global-mean
+
+Work done by Ezequiel with OpenDAP and NcML:
+https://github.com/zequihg50/2023-esgf-virtual-aggregation
 
 ### 4. Discussion
 
 Round Table:
 
+Charles:
+* no updates
+
+David:
+* thinking about to use WPS for the spatial averager
+
+Nils:
+* preparing innovation days in Estonia ... also online attendance possible
+https://2024.europe.foss4g.org/schedule/ogc-euidays/
+* coding sprint in october for clint in bonn at ECMWF ... open to be joined by others
+
+Ezequiel:
+* no updates
+
+Carsten:
+* no updates. working on PID service implementation.
+
+Alessandro:
+* new IRISCC project started. 
+* combining research infras to support use cases for adaptions scenarios.
+* lead by luke in finnland
+* https://www.cetrad.utad.pt/project/iriscc-integrated-research-infrastructure-services-for-climate-change-risks-ongoing-project/
+* splinter meeting at the egu:
+https://meetingorganizer.copernicus.org/EGU24/session/50828
 
 
 
@@ -60,11 +96,3 @@ Round Table:
 
 Next meeting: 13th May 2024
 
-
-
-
- 
- 
- 
- 
- 
