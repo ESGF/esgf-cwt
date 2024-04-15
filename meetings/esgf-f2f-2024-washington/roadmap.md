@@ -31,3 +31,14 @@ Web interfaces:
 rooki demo:
 
 * https://nbviewer.org/github/roocs/rooki/tree/master/notebooks/demo/
+
+
+Deploy using Ansible:
+
+* https://github.com/bird-house/ansible-wps-playbook/tree/dev-almalinux9
+
+## WPS 
+
+Setup new WPS service using cookiecutter:
+
+https://github.com/bird-house/cookiecutter-birdhouse 
