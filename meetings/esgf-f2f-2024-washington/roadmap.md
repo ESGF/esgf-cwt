@@ -1,5 +1,10 @@
 # CWT Session at ESGF F2F 2024
 
+## Infrastructure
+Use the [Nimbus Binder](https://binder-nimbus.llnl.gov), having users register with their github usernames through a google form.
+
+Have users launch the [esgf-cookbook](https://github.com/esgf2-us/esgf-cookbook), with a collection of notebooks ready for the demo + tutorial.
+
 
 ## Agenda
 
