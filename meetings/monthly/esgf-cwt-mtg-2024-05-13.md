@@ -47,7 +47,7 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
-**Nils** 
+*Nils* 
 
 * organizing FOSS4G/OGC in Tatu, Estonia. 
 * Copernicus C3S has focus on energy and health thematic. 
@@ -68,30 +68,30 @@ High-Performance Geospatial Computing Optimized Formats
 
 Responses to the CFP are due by 10 June 2024, @11:59 PM AoE. A Bidders Q&A Webinar will be held on 24 May, 10:00-11:00
 
-**Max** 
+*Max* 
 
 * work on containerizing WPS services. 
 * kerchunk with globus work in progress https://github.com/mgrover1/kerchunk-esgf-wip
 * attended globus week.
 
-**David** 
+*David* 
 
-PR for polygon averaging released. Let me know.
+PR for polygon averaging released.
 
-**Forrest** 
+*Forrest* 
 
 * good meeting at ESGF F2F. 
 * Index + message queue top priority. 
 
-**Ezequiel** 
+*Ezequiel* 
 
 no updates
 
-**Ben** 
+*Ben*
 
 no updates
 
-**Carsten**
+*Carsten*
 
 using ansilbe deployment for WPS within the CLINT project
 
