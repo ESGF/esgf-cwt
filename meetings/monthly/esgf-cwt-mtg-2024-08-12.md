@@ -17,13 +17,7 @@ When:  12/08/2024
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- David Huard (Ouranos)
-- William Tucker (CEDA/STFC)
 - Zach Price (ORNL)
-- Forrest Hoffman (ORNL)
-- Nils Hempelmann (OGC)
-- Alessandro Spinuso (KNMI)
-
 
 ## Agenda
 
@@ -64,7 +58,10 @@ Skipped the presentation today ... maybe next time when Max is available.
 
 #### Round Table
 
-
+Zach: 
+- we have some issues with our docker/kubernetes deployment of pywps/rook ... jobs get stalled and new jobs are not accepted
+- https://code.ornl.gov/esgf/wps/-/tree/main?ref_type=heads 
+- Carsten: look at the pywps "parallel processes" config, gunicorn issues? 
 
 
 ### 5. Next steps:
