@@ -17,6 +17,11 @@ When:  09/09/2024
 Who:
 
 - Carsten Ehbrecht (DKRZ)
+- Max Grover (ORNL)
+- David Huard (Ouranos)
+- Sasha (LLNL)
+- William Tucker (CEDA)
+- Nils Hempelmann (OGC)
 - Zach Price (ORNL)
 
 ## Agenda
@@ -36,28 +41,50 @@ Who:
 
 See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
-#### Max about ESGF notebooks using Rook WPS 
 
-Last week at the Project Pythia hackathon, students worked on new notebooks for the ESGF cookbook
-* Remotely Computing ENSO + Regridding + Calculating Non-Linearity: https://projectpythia.org/esgf-cookbook/notebooks/rooki_enso_nonlinear.html
-* Remotely regridding + comparing the output from models locally: https://projectpythia.org/esgf-cookbook/notebooks/ex-regrid-plot.html
-* Searching the Globus-Hosted Index and Computing with Rooki: https://projectpythia.org/esgf-cookbook/notebooks/use-intake-esgf-with-rooki.html
+#### Cookbook with Rook by Max
 
-They also highlighted the need for an example searching for datasets using intake-esgf, and feeding those datasets into rooki
-https://projectpythia.org/esgf-cookbook/notebooks/use-intake-esgf-with-rooki.html
+Max presented the ESGF cookbook with WPS/Rook:
 
-Be on the lookout for some PRs to rooki to expand the documentation, especially chaining operations together 
+https://projectpythia.org/esgf-cookbook/README.html
 
-I would be happy to present on this at our next CWT meeting.
-
-#### Notes
-
-
+The notebooks were used by students in a hackathon.
 
 ### 4. Discussion
 
 #### Round Table
 
+William: 
+* nothing to report
+
+David: 
+* my collegue is working on the docker deployment
+
+Sasha:
+* no work on CWT
+* worked on Zarr ... virtual zarr via http instead of S3 from cloud
+* there will be an ESGF F2F meeting in November ... Paris or Oxford
+
+Max:
+* WPS/Rook is running at Oakridge
+* working on the cookbook
+* helm-chart: configuration for kubernetes deployment
+* https://code.ornl.gov/esgf/wps
+
+Nils:
+* code sprint clint at the 7.10-9.10 in Bonn at ECMWF: 
+https://www.ogc.org/ogc-events/2024-climate-services-code-sprint/
+* details:
+https://docs.google.com/document/d/1t_pJj1lXlC4ufJu9aCJzMRlvD06f31bq0KdfLC0gD7w/edit
+
+Zach:
+* WPS is much better working since last time ... issues solved
+
+Carsten:
+* new Copernicus CDS at the end of September: 
+https://cds-beta.climate.copernicus.eu/
+* Toolbox has been removed but you can use Jupyter Notebooks in wekeo: 
+https://www.wekeo.eu/computing
 
 
 ### 5. Next steps:
