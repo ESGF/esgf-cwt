@@ -19,8 +19,9 @@ Who:
 - Carsten Ehbrecht (DKRZ)
 - David Huard (Ouranos)
 - Nils Hempelmann (OGC)
+- Alessandro Spinuso (KNMI)
 - Zach Price (ORNL)
-- Ben Coalson (ORNL)
+- Jitu Kumar (ORNL)
 
 ## Agenda
 
@@ -47,14 +48,23 @@ Carsten:
     * daops: updated to latest versions ... skip roocs_utils. Maybe skip daops in the future? Everything still used can be moved to either clisops or rook.
 
 David:
-* ...
+* nothing to report
 
 Nils:
-* ...
+* clean up docs for clint ... glossary, bibliography
+    * https://birdhouse2-docs.readthedocs.io/en/latest/
+* working on copernicus components ... land monitoring service
+* code sprint (copernicus, esmwf, land monitoring) ... moving to pygeoapi or zoo, cwl workflow language
 
-Zach/Ben:
-* ...
+Alessandro:
+* updating this doc: WMO-No. 1131 — Climate Data Management System Specifications (CDMS)
+* meeting last week: auth users, ESGF, EGI checkin, for Europe to access ESGF services, to publish data and also to access notebook environments + computional services + etc ...
 
+Jitu/Zach:
+* working on deployment of Rook/WPS
+* look into slurm for WPS to be able to handle the load
+* had some issues with pip packages ... need to use conda
+* pygeoapi might make it easier to provide status infos from slurm nodes
 
 ### 5. Next steps:
 
