@@ -17,11 +17,8 @@ When:  10/03/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
-
+- Ben Coalsen (ORNL)
 - David Huard (Ouranos)
-- Nils Hempelmann (OGC)
-- Alessandro Spinuso (KNMI)
 - Zach Price (ORNL)
 - Jitu Kumar (ORNL)
 
@@ -45,8 +42,21 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 Carsten:
 * still working on cleanup of clisops
+* moved to latest version of xarray ... but this breaks the regridding operator.
+    * https://github.com/pydata/xarray/issues/7794
 * atlas-v2 in the making for publishing into Copernicus CDS ... data gets synced at IPSL and DKRZ
 
+
+Ben/Zach/Jitu:
+* We had some issues with the pip installation ... no going back to conda.
+* Conda "default" channel is restricted now. We can only use conda-forge.
+* CE: latest version of Rook only uses conda-forge.
+
+David:
+* having a new processing service for climate indices with pygeoapi
+* https://pavics.ouranos.ca/portail-ing-backend/
+* github repo is still private: access can be given on request (GitHub ID)
+* working on using S3 storage (minio) for outputs
 
 ### 5. Next steps:
 
