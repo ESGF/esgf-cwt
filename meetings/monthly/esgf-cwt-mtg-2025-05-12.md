@@ -17,10 +17,9 @@ When:  12/05/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- Ben Coalsen (ORNL)
 - David Huard (Ouranos)
-- Zach Price (ORNL)
-- Jitu Kumar (ORNL)
+- Alessandro Spinuso (KNMI)
+
 
 ## Agenda
 
@@ -40,6 +39,20 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Carsten:
+* Seneca wants to use S3 storage to provide ESGF data (IRISC project). How can this be integrated with Rook/WPS and ESGF2?
+* David: 
+    * either use zarr with s3
+    * or upload complete netcdf files to S3 and provide a kerchunk file to access these files as chunks.
+
+
+Alessandro:
+* ESGF status: https://github.com/ESGF/esgf-roadmap/tree/main/status
+* PROV namespace: we need to use consistent namespace URLs.
+* Please keep us informed about the transition to the new ESGF2 with STAC. Many Apps lely on the current ESGS-search (sorl ... mot stac)!
+
+David:
+* the pygeoapi project has an example for accessing files on S3 storage.
 
 
 ### 5. Next steps:
