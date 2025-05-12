@@ -49,7 +49,7 @@ Carsten:
 Alessandro:
 * ESGF status: https://github.com/ESGF/esgf-roadmap/tree/main/status
 * PROV namespace: we need to use consistent namespace URLs.
-* Please keep us informed about the transition to the new ESGF2 with STAC. Many Apps lely on the current ESGS-search (sorl ... mot stac)!
+* Please keep us informed about the transition to the new ESGF2 with STAC. Many Apps rely on the current ESGS-search (solr ... not stac)!
 
 David:
 * the pygeoapi project has an example for accessing files on S3 storage.
