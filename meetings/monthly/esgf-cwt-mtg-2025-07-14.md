@@ -43,7 +43,7 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 Max:
 * new plugin for xarray: indexes
-* one can index an arbitrary dimension
+* improved index capablities for xarray
 * https://xarray-indexes.readthedocs.io/index.html
 * https://xarray-indexes.readthedocs.io/blocks/ndpoint.html
 * could help clisops for geo/bbox subsetting
@@ -55,7 +55,7 @@ Zach:
 Nils:
 * Florian Papenberger new director at ECMWF
 * services at ECMWF will be closer in the future
-* want to run the CLINT AI cycling tracking bird in production
+* want to run the CLINT AI cyclone tracking service in production
 * new project at ECMWF for climate indices
 * going to FOSS4G tomorrow ... meet Tom Kralidis at pygeoapi workshop
 
