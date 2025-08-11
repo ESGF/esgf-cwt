@@ -22,10 +22,6 @@ Who:
 - Zach Price (ORNL)
 - Maxwell Grover (ANL)
 
-
-- Forrest Hoffman (ORNL)
-
-
 ## Agenda
 
 ### 1. Welcome and introductions
@@ -45,14 +41,14 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 #### Round Table
 
 Nils:
-* European FOSSGIS, Bosnien, small one
+* visited European FOSSGIS, Bosnien, small one
 * meet Tom Kralidis ... pygeoapi
 * Tom ... thinks about building a formal european organisation ...
-* the ESA etc might take over some of the community work doen by OGC
+* the ESA might take over some of the community work done by OGC
 * ESA is already funding/supporting FOSS4G software ... need a european slim organisation to make it easier.
 * OGC has changed ... moving to industrial focused topics
 * OSGeo might get a higher importance
-* Nils in contact with WMO for climate services ... also with Tom Kralidis (pygeoapi) ... Barcelona Super Computer is running the procect, ESMF involved
+* Nils in contact with WMO for climate services ... also with Tom Kralidis (pygeoapi) ... Barcelona Super Computer is running the project, ECMWF involved
 
 Max:
 * pywps service is up and running again
@@ -66,7 +62,7 @@ David:
 
 Carsten:
 * working on the PID service for ESGF2
-* Question at Zach: how to deal with the STAC patches comming from the Kafka queue? 
+* Question to Zach: how to deal with the STAC patches comming from the Kafka queue? 
 
 ### 5. Next steps:
 
