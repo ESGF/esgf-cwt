@@ -17,13 +17,14 @@ When:  11/08/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
-
 - David Huard (Ouranos)
-- Maxwell Grover (ANL)
-- Zach Price (ORNL)
-- Forrest Hoffman (ORNL)
 - Nils Hempelmann (ECMWF)
+- Zach Price (ORNL)
+- Maxwell Grover (ANL)
+
+
+- Forrest Hoffman (ORNL)
+
 
 ## Agenda
 
@@ -43,8 +44,29 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Nils:
+* European FOSSGIS, Bosnien, small one
+* meet Tom Kralidis ... pygeoapi
+* Tom ... thinks about building a formal european organisation ...
+* the ESA etc might take over some of the community work doen by OGC
+* ESA is already funding/supporting FOSS4G software ... need a european slim organisation to make it easier.
+* OGC has changed ... moving to industrial focused topics
+* OSGeo might get a higher importance
+* Nils in contact with WMO for climate services ... also with Tom Kralidis (pygeoapi) ... Barcelona Super Computer is running the procect, ESMF involved
 
+Max:
+* pywps service is up and running again
+* I will leave the lab end of august ...
 
+Zach:
+* worked on the wps service
+
+David:
+* working with Francis on weaver (wrap wps to ogcapi). wrote CLI to build new services ... which could than be deployed as a docker ... using ogcapi ...
+
+Carsten:
+* working on the PID service for ESGF2
+* Question at Zach: how to deal with the STAC patches comming from the Kafka queue? 
 
 ### 5. Next steps:
 
