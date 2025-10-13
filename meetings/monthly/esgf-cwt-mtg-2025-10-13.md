@@ -17,13 +17,9 @@ When:  13/10/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
-
-
-- David Huard (Ouranos)
 - Nils Hempelmann (ECMWF)
-- Zach Price (ORNL)
-- Maxwell Grover (ANL)
+- Alessandro (KNMI)
+
 
 ## Agenda
 
@@ -43,6 +39,21 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Alessandro:
+* was verzy busy with general assemblies and reporting
+* involved in new projects concerning provenance
+
+Nils:
+* fair tool: https://www.f-uji.net/
+* ecmwf tries to get 100% fair coverage: https://www.ecmwf.int/en/newsletter/183/news/towards-fairer-data-stores-service
+* involved in climate europe 2
+
+Carsten:
+* still working on the PID service (piddiplatsch) to make it ready for CMIP7
+* interested in setting up a provenance database for the WPS rook:
+* Alessandro: 
+    * we are using neo4j, triple import of prov docs, using cipher for queries
+    * you need to define templates (with knowledge of the prov model) to run queries
 
 
 ### 5. Next steps:
@@ -52,6 +63,7 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 * Work on docker deployment. 
 * Integrate with S3 storage. 
 * Need a production ready (better queue) pygeoapi.
+* Work on prov db for Rook WPS
 
 ### 6. AOB:
 
