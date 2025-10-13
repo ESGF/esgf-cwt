@@ -1,4 +1,4 @@
-# ESGF Compute Working Team Meeting - 2025-07-14
+# ESGF Compute Working Team Meeting - 2025-08-11
 
 
 ## Logistics
