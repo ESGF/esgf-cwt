@@ -40,7 +40,7 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 #### Round Table
 
 Alessandro:
-* was verzy busy with general assemblies and reporting
+* was very busy with general assemblies and reporting
 * involved in new projects concerning provenance
 
 Nils:

@@ -17,6 +17,11 @@ When:  10/11/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
+- David (Ouranos)
+- Zach (LLNL)
+- Forrest
+
+
 
 
 - Nils Hempelmann (ECMWF)
@@ -43,7 +48,19 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 Carsten:
 * Copernicus CDS wants to use regrid operator. Need to make a patch release in the next days of clisops.
+* David: how is caching of grids done? 
+    * predefined grids: https://github.com/roocs/roocs-grids/tree/main
+    * caching grids in clisops: https://github.com/roocs/clisops/blob/2689a0b21a40859f81706503920cf956d77cd234/clisops/core/regrid.py#L1569
 
+Forrest:
+* showing the future architecture of ESGF at AGU (monday 15th of december): metagrid, esgf-search, ...
+
+Zach:
+* nothing new to report
+
+David:
+* some experimental work with weaver (has ogcapi interface): deploy cli tools as docker container, use cwl workflow, run everything in memory (no output written/read from disk)
+* using pygeoapi in another project ... but pygeoapi queue is not ready for production ...
 
 ### 5. Next steps:
 
