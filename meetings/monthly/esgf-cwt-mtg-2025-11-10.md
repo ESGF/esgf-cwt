@@ -17,16 +17,9 @@ When:  10/11/2025
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- David (Ouranos)
-- Zach (LLNL)
-- Forrest
-
-
-
-
-- Nils Hempelmann (ECMWF)
-- Alessandro (KNMI)
-
+- David Huard (Ouranos)
+- Zach Price (ORNL)
+- Forrest Hoffman (ORNL)
 
 ## Agenda
 
@@ -36,7 +29,6 @@ Who:
 
 - [ ] Carsten + David: work on pygeoapi + STAC
 - [ ] Carsten: work on docker deployment
-- [ ] Carsten: add wiki page for presenters
 
 ### 3. Presentation (optional)
 
