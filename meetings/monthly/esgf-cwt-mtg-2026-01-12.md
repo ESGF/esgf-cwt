@@ -43,7 +43,8 @@ Carsten:
 
 David:
 * TODO: please write a data paper on rook + clisops. ask Ag ... etc
-* I like to mention Rook/ESGF2 in the cmip7 ipcc report
+    * I like to mention Rook/ESGF2 in the cmip7 ipcc report
+    * Here is for example our JOSS paper for xclim: https://joss.theoj.org/papers/10.21105/joss.05415
 
 Alessandro:
 * there are some upcoming deliverables that can help for the ipcc report
