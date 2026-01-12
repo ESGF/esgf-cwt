@@ -48,6 +48,7 @@ David:
 Alessandro:
 * there are some upcoming deliverables that can help for the ipcc report
 * how will the WPS be made available via the stac catalog? (still an open point!)
+    * https://github.com/ESGF/esgf-roadmap/issues/134
 * how is the stac catalog orgainzed? (stac item = dataset, stac assets = files, globus end points and for aggregated access zarr or kerchunk)
 
 Zach:
