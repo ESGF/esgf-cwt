@@ -1,4 +1,4 @@
-# ESGF Compute Working Team Meeting - 2025-11-10
+# ESGF Compute Working Team Meeting - 2026-01-12
 
 
 ## Logistics
@@ -17,11 +17,9 @@ When:  12/01/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
-
 - David Huard (Ouranos)
 - Zach Price (ORNL)
-- Forrest Hoffman (ORNL)
+- Alessandro (KNMI)
 
 ## Agenda
 
@@ -42,6 +40,22 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 Carsten:
 * made a new release of rook with regrid operator.
+
+David:
+* TODO: please write a data paper on rook + clisops. ask Ag ... etc
+* I like to mention Rook/ESGF2 in the cmip7 ipcc report
+
+Alessandro:
+* there are some upcoming deliverables that can help for the ipcc report
+* how will the WPS be made available via the stac catalog? (still an open point!)
+* how is the stac catalog orgainzed? (stac item = dataset, stac assets = files, globus end points and for aggregated access zarr or kerchunk)
+
+Zach:
+* There is an aggregation extension for stac:
+    * https://github.com/stac-api-extensions/aggregation
+    * https://api.stac.esgf.ceda.ac.uk/collections/CMIP6/aggregate?aggregations=cmip6_source_id_frequency,cmip6_table_id_frequency 
+    * https://api.stac.esgf.ceda.ac.uk/collections/CMIP6/aggregations
+* there might be something available to search on files (assets, need to ask Rhys from CEDA).
 
 
 ### 5. Next steps:
