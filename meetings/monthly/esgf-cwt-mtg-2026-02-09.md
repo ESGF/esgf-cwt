@@ -31,7 +31,8 @@ Who:
 
 - [ ] Carsten + David: work on pygeoapi + STAC
 - [ ] Carsten: work on docker deployment
-- [ ] Carsten: Write JOSS paper about Rook+clisops
+- [ ] Carsten etc: Write JOSS paper about Rook+clisops
+- [ ] Carsten etc: WPS integration into STAC
 
 ### 3. Presentation (optional)
 
@@ -57,6 +58,7 @@ Carsten:
 * Need a production ready (better queue) pygeoapi.
 * Work on prov db for Rook WPS
 * Write JOSS paper about Rook+clisops. See xclim example: https://joss.theoj.org/papers/10.21105/joss.05415
+* WPS integration into STAC: https://github.com/ESGF/esgf-roadmap/issues/134
 
 ### 6. AOB:
 

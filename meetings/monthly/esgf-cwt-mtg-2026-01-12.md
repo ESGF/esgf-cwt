@@ -59,6 +59,13 @@ Zach:
     * https://api.stac.esgf.ceda.ac.uk/collections/CMIP6/aggregations
 * there might be something available to search on files (assets, need to ask Rhys from CEDA).
 
+Zach:
+Just for visibility, I created this issue to track the questions we discussed re: WPS and STAC: https://github.com/ESGF/esgf-roadmap/issues/134
+
+David:
+I pinged my colleague Francis who works a lot with STAC and processes.
+He mentioned https://github.com/stac-extensions/processing, but it doesn't really match the use case we have, it would rather be to describe the output of the process.
+
 
 ### 5. Next steps:
 
