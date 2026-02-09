@@ -17,7 +17,7 @@ When:  09/02/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- Nils
+- Nils (ECMWF)
 - David Huard (Ouranos)
 - Zach Price (ORNL)
 - Alessandro (KNMI)
@@ -44,12 +44,13 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 Carsten:
 * kick-off meeting for Copernicus. Integrate CORDEX, CMIP7 etc. Work on QA/QC (ioos compliance checker) which is also used for ESGF2.
 * next try on fixing library. Together with Ag (STFC/CEDA). 
+* David: keep it easy to extend for other users ... just like a github repo with good guidelines and API.
 
 Nils:
 * organizing copernicus meeting ... in-person event with broadcast for questions
     * https://climate.copernicus.eu/9th-c3s-general-assembly
-    * ... the future developement of CDS
-    * ... stronger network with other services
+    * the future developement of C3W
+    * stronger network with other services
     * in June in Budapest
 * clint is running out
     * very successful project ... fulfilled the promises
@@ -58,17 +59,16 @@ Nils:
 https://apps.climate.copernicus.eu/earthkit-dataset-viewer/?dataset=clint
 
 Alessandro:
-* Futura and ines-rise will be funded!
+* Futura and isenes-rise will be funded!
 * coordinated by Anna, CMCC
 * DKRZ got quite some resources in it
 * how about the WPS will evolve in ESGF2?
 * infra part and a research component
 * support IPCC
 * support ESGF2 ... east (UK)
-* isenes-rise ... Plan B ... keep up the data nodes for next 3-4 years
+* isenes-rise ... was Plan B ... keep up the data nodes for next 3-4 years
 * David: what does it change for the rest of the world?
 * A: the US (globus) and UK (egi-checkin, es) ESGF2 are different ... but use the same interface (STAC)
-* Zach: 
 * A: we have data-challenges to test the interfaces
 
 Zach:
@@ -80,8 +80,7 @@ David:
 * editor for IPCC ... waiting for cmip7 data  ... deadline already in summer
 * francis works on CLI mapper to ogc-api ... not using pygeoapi
 * A: do you use CWL? D: yes
-* A: it is done in-memory? D: I look up the code: https://github.com/bird-house/goldfinch
-
+* A: it is done in-memory? D: I look it up in the code: https://github.com/bird-house/goldfinch
 
 
 ### 5. Next steps:
