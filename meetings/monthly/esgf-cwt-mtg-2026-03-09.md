@@ -17,10 +17,11 @@ When:  09/03/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
 - Nils (ECMWF)
 - Zach Price (ORNL)
-- Alessandro (KNMI)
+- Forrest Hoffman (ORNL)
+- not available: David Huard (Ouranos)
+- not available: Alessandro (KNMI)
 
 ## Agenda
 
@@ -49,7 +50,13 @@ Carsten:
     * https://github.com/cehbrecht/woodpecker
     * Demo for fixing library ... inspired by Ruff Python linter
 
+Nils:
+* nothing new
+* I'm organizing the CDS GA
 
+Zach, Forrest:
+* the WIP decided to not include the WPS in the STAC catalog
+* WPS might be listed somewhere else ... for example in the metagrid UI
 
 ### 5. Next steps:
 
