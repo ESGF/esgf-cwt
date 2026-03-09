@@ -49,6 +49,7 @@ Carsten:
 * woodpecker demo started:
     * https://github.com/cehbrecht/woodpecker
     * Demo for fixing library ... inspired by Ruff Python linter
+    * bi-weekly meeting with Ag (CEDA) and Bouwe (ESMValTool) for further development
 
 Nils:
 * nothing new
