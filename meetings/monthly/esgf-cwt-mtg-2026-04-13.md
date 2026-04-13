@@ -17,9 +17,10 @@ When:  13/04/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
-
 - Nils (ECMWF)
+- Sasha (LLNL)
+- David (Ouranos)
+
 - Zach Price (ORNL)
 - Forrest Hoffman (ORNL)
 - not available: David Huard (Ouranos)
@@ -44,6 +45,20 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Sasha:
+* https://github.com/WCRP-CMIP/cmip7-guidance
+* https://github.com/WCRP-CMIP/cmip7-guidance/blob/docs/docs/CMIP7/Guidance_for_ESGF.md
+* TODO: please add something for the compute service ... as PR. Add David as reviewer.
+
+Alessandro:
+* status of WPS in ESGF-NG?
+* Carsten: need to query the new STAC catalog to get the dataset ID (instead of the ESGF index)
+
+Nils:
+
+* prep Copernicus/ECMWF GA in Budapest in June
+* ECMWF will open a ticket system for users soon
+
 Carsten:
 * woodpecker demo continued:
     * https://github.com/cehbrecht/woodpecker
@@ -53,6 +68,9 @@ Carsten:
     * next: 
         * add database support? use DuckDB ???
         * support plugins: pluggy, entrypoint (part of python library)
+* David: 
+    * Users should be able to open a ticket on github and a fix can be provided via PR
+    * keep in mind that the xarray lib is "unstable" ... api can change with new versions
 
 
 ### 5. Next steps:
