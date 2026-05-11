@@ -17,13 +17,15 @@ When:  11/05/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-
+- David Huard (Ouranos)
+- Alessandro (KNMI)
 - Nils (ECMWF)
+
+not attending:
 - Sasha (LLNL)
 - Zach Price (ORNL)
 - Forrest Hoffman (ORNL)
-- David Huard (Ouranos)
-- Alessandro (KNMI)
+
 
 ## Agenda
 
@@ -46,6 +48,23 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Nils:
+* prepareing CDS GA, 3-5 june, Budapest
+* https://climate.copernicus.eu/9th-c3s-general-assembly
+* open for online access
+* involved with Alessandro on quality tool for CDS
+
+David:
+* involved in the atlas data group
+* https://cds.climate.copernicus.eu/datasets/multi-origin-c3s-atlas?tab=overview
+* atlas: they will use xclim and xarray for next version
+* goldfinch: preparing ogcapi interface for it ... not sure if it will be pygeoapi or the ogcapi adapter by crim
+* interested in joining the CDS GA online
+
+Alessandro:
+* is the new ESGF2 alive? ... nobody knows ... all silent
+* interested in joining the CDS GA online
+
 Carsten:
 * woodpecker demo continued:
     * https://github.com/cehbrecht/woodpecker
@@ -57,7 +76,8 @@ Carsten:
         * FixPlanStore (storing fix plans to querry them)
         * plugins with "entrypoint" to provide fixes packages (cordex, cmip7, ...)
         * identifiers: suffix.prefix, example cmip7.convert_celsius_to_kelvin
-    
+        * using synthethic data for testing
+
 ### 5. Next steps:
 
 * Work on pygeopi and STAC. 
