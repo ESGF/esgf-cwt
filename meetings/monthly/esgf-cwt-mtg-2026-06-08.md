@@ -1,4 +1,4 @@
-# ESGF Compute Working Team Meeting - 2026-05-11
+# ESGF Compute Working Team Meeting - 2026-06-08
 
 
 ## Logistics
@@ -17,10 +17,11 @@ When:  08/06/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- David Huard (Ouranos)
-- Nils (ECMWF)
+- (all on vacation)
 
 not attending:
+- David Huard (Ouranos)
+- Nils (ECMWF)
 - Alessandro (KNMI)
 - Sasha (LLNL)
 - Zach Price (ORNL)
@@ -49,7 +50,7 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 #### Round Table
 
 Alessandro:
-* i like to have the recordings of the cds GA
+* TODO: i like to have the recordings of the cds GA
 
 Carsten:
 * woodpecker demo continued:
