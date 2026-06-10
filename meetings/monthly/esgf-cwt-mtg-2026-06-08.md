@@ -50,7 +50,34 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 #### Round Table
 
 Alessandro:
-* TODO: i like to have the recordings of the cds GA
+* DONE: i like to have the recordings of the cds GA
+* https://climate.copernicus.eu/9th-c3s-general-assembly
+
+Nils:
+```
+Here are the recordings: 
+https://climate.copernicus.eu/9th-c3s-general-assembly
+
+It was a really nice GA with many highlights. 
+
+I recommend the opening session 
+
+Péter Kajner (WWF) The Role of Climate Services in Addressing the Challenges of Climate Change for Hungary. 
+Peter will possibly be new secretary of state in the new government. 
+
+Suraje Dessai (ESABCC) Strengthening resilience to climate change in Europe  and the role of climate services
+
+
+Day 2 
+Samantha Burgess (ECMWF) Climate Intelligence update
+
+Session 11:00 - 12:30 
+
+And the entire Friday both sessions. The roundtable discussion about the future of Climate services is very interesting and I am glad that we have the statements now as a reference. 
+
+
+Next GA is end of May 2027 in Rome. Save the date in your calendar :-) 
+```
 
 Carsten:
 * woodpecker demo continued:
