@@ -1,4 +1,4 @@
-# ESGF Compute Working Team Meeting - 2026-06-08
+# ESGF Compute Working Team Meeting - 2026-07-13
 
 
 ## Logistics
@@ -7,7 +7,7 @@ Where:
 
 https://whereby.com/tea-room-cwt
 
-When:  08/06/2026
+When:  13/07/2026
 
 * 16:00 - 17:00 Hamburg
 * 15:00 - 16:00 UTC
@@ -49,41 +49,13 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
-Alessandro:
-* DONE: i like to have the recordings of the cds GA
-* https://climate.copernicus.eu/9th-c3s-general-assembly
-
-Nils:
-```
-Here are the recordings: 
-https://climate.copernicus.eu/9th-c3s-general-assembly
-
-It was a really nice GA with many highlights. 
-
-I recommend the opening session 
-
-Péter Kajner (WWF) The Role of Climate Services in Addressing the Challenges of Climate Change for Hungary. 
-Peter will possibly be new secretary of state in the new government. 
-
-Suraje Dessai (ESABCC) Strengthening resilience to climate change in Europe and the role of climate services
-
-
-Day 2 
-Samantha Burgess (ECMWF) Climate Intelligence update
-
-Session 11:00 - 12:30 
-
-And the entire Friday both sessions. The roundtable discussion about the future of Climate services is very interesting and I am glad that we have the statements now as a reference. 
-
-
-Next GA is end of May 2027 in Rome. Save the date in your calendar :-) 
-```
 
 Carsten:
-* woodpecker demo continued:
-    * https://github.com/cehbrecht/woodpecker
-    * Demo for fixing library ... inspired by Ruff Python linter
-    * refinement about vocabulary and usage
+* woodpecker moved to roocs:
+    * https://github.com/roocs/woodpecker
+    * CDS people want to use it for new cmip6 decadal data
+    * Integrated into Rook: 
+    https://github.com/roocs/rook/blob/main/src/rook/fixes/providers/woodpecker.py
 * started new test data repo:
     * https://github.com/cehbrecht/mini-climate-data
     * using recipes to build reduced test data from original data
@@ -101,5 +73,5 @@ Carsten:
 
 ### 6. AOB:
 
-Next meeting: 13th July 2026
+Next meeting: 10th August 2026
 
