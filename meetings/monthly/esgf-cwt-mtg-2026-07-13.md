@@ -69,7 +69,10 @@ Carsten:
 * started new test data repo:
     * https://github.com/cehbrecht/mini-climate-data
     * using recipes to build reduced test data from original data
-
+* David:
+    * how about an AI agent of providing fixes solutions based on woodpecker?
+    * how do users find all the available fixes?
+    
 ### 5. Next steps:
 
 * Work on pygeopi and STAC. 
