@@ -49,6 +49,16 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Nils:
+* feedback from GA
+* the different copernicus service need to work on common interfaces and usage patterns.
+
+Here at 3:09 Chis talks about Enhanced C3S climate prediction and projection datasets and tools 
+https://www.youtube.com/watch?v=1TgmCTyLPVM&t=11388s
+
+David:
+* ro-crate ... yaml with infos about where data is comming from
+
 
 Carsten:
 * woodpecker moved to roocs:
