@@ -17,11 +17,10 @@ When:  13/07/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
-- (all on vacation)
-
-not attending:
 - David Huard (Ouranos)
 - Nils (ECMWF)
+
+not attending:
 - Alessandro (KNMI)
 - Sasha (LLNL)
 - Zach Price (ORNL)
