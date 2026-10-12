@@ -17,12 +17,12 @@ When:  12/10/2026
 Who:
 
 - Carsten Ehbrecht (DKRZ)
+- Nils (ECMWF)
+- Alessandro (KNMI)
 
 
 not attending:
 - David Huard (Ouranos)
-- Nils (ECMWF)
-- Alessandro (KNMI)
 - Sasha (LLNL)
 - Zach Price (ORNL)
 - Forrest Hoffman (ORNL)
