@@ -1,4 +1,4 @@
-# ESGF Compute Working Team Meeting - 2026-07-13
+# ESGF Compute Working Team Meeting - 2026-08-10
 
 
 ## Logistics
@@ -80,5 +80,5 @@ Carsten:
 
 ### 6. AOB:
 
-Next meeting: 10th August 2026
+Next meeting: 12th October 2026
 
