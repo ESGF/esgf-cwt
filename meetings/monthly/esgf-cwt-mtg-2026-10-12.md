@@ -50,13 +50,23 @@ See list of presentations in issue https://github.com/ESGF/esgf-cwt/issues/35.
 
 #### Round Table
 
+Alessandro was at Milano for eRise and Futura (ESGF-NG) general assembly:
+
+* Bryan working on active storage    
+    * https://github.com/NCAS-CMS/PyActiveStorage
+* using DASK for accessing S3 storage. Karsten did a demo about access mode ...  
+* Milano linkedin:
+    * https://www.linkedin.com/company/futura-horizon-europe/
 
 Carsten:
-* rook for ESGF2 in Milano:
+* rook for ESGF-NG in Milano:
     * https://roocs.github.io/rook/talks/milano-2026
-* woodpecker for ESGF2, ESMValTool and CDS in Milano:
+* woodpecker for ESGF-NG, ESMValTool and CDS in Milano:
     * https://roocs.github.io/woodpecker/talks/milano-2026
     
+Nils:
+
+* working on deliverable for climate-europe 2
 
 ### 5. Next steps:
 
